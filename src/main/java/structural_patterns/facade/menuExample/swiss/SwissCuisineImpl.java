@@ -2,12 +2,12 @@ package structural_patterns.facade.menuExample.swiss;
 
 public class SwissCuisineImpl implements SwissCuisine {
     @Override
-    public void fondue() {
-        System.out.println("Fondue");
+    public String fondue() {
+        return "Fondue";
     }
 
     @Override
-    public void raclette() {
-        System.out.println("Raclette");
+    public String raclette() {
+        return "Raclette";
     }
 }

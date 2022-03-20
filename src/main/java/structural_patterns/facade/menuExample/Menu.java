@@ -20,28 +20,28 @@ public class Menu {
         italyCuisine = new ItalyCuisineImpl();
     }
 
-    public void dumplingsWithPotatoAndQuark() {
-        polishCuisine.dumplingsWithPotatoAndQuark();
+    public String dumplingsWithPotatoAndQuark() {
+        return polishCuisine.dumplingsWithPotatoAndQuark();
     }
 
-    public void dumplingsWithSpinachAndFeta() {
-        polishCuisine.dumplingsWithSpinachAndFeta();
+    public String dumplingsWithSpinachAndFeta() {
+        return polishCuisine.dumplingsWithSpinachAndFeta();
     }
 
-    public void fondue() {
-        swissCuisine.fondue();
+    public String fondue() {
+        return swissCuisine.fondue();
     }
 
-    public void raclette() {
-        swissCuisine.raclette();
+    public String raclette() {
+        return swissCuisine.raclette();
     }
 
-    public void classsicLasagne() {
-        italyCuisine.classsicLasagne();
+    public String classsicLasagne() {
+        return italyCuisine.classsicLasagne();
     }
 
-    public void pizzaMargharita() {
-        italyCuisine.pizzaMargharita();
+    public String pizzaMargharita() {
+        return italyCuisine.pizzaMargharita();
     }
 
 }

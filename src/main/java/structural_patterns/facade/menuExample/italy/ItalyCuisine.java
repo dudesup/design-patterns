@@ -1,7 +1,7 @@
 package structural_patterns.facade.menuExample.italy;
 
 public interface ItalyCuisine {
-    void classsicLasagne();
+    String classsicLasagne();
 
-    void pizzaMargharita();
+    String pizzaMargharita();
 }

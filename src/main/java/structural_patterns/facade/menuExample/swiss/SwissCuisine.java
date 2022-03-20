@@ -1,7 +1,7 @@
 package structural_patterns.facade.menuExample.swiss;
 
 public interface SwissCuisine {
-    void fondue();
+    String fondue();
 
-    void raclette();
+    String raclette();
 }
