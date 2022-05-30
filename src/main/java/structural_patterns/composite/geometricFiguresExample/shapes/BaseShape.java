@@ -52,7 +52,7 @@ public class BaseShape implements Shape{
     }
 
     @Override
-    public void unselect() {
+    public void unSelect() {
         selected = false;
     }
 

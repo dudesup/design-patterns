@@ -10,7 +10,7 @@ public interface Shape {
     void move(int x, int y);
     boolean isInsideBounds(int x, int y);
     void select();
-    void unselect();
+    void unSelect();
     boolean isSelected();
     void paint(Graphics graphics);
 }
