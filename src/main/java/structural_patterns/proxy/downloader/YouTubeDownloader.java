@@ -1,15 +1,16 @@
 package structural_patterns.proxy.downloader;
 
-import lombok.AllArgsConstructor;
 import structural_patterns.proxy.some_cool_media_library.ThirdPartyYouTubeLib;
 import structural_patterns.proxy.some_cool_media_library.Video;
 
 import java.util.HashMap;
 
-@AllArgsConstructor
 public class YouTubeDownloader {
     private ThirdPartyYouTubeLib api;
 
+    public YouTubeDownloader(ThirdPartyYouTubeLib api) {
+        this.api = api;
+    }
 
     public void renderVideoPage(String videoId) {
         Video video = api.getVideo(videoId);

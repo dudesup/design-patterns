@@ -1,6 +1,7 @@
 package structural_patterns.proxy.proxy;
 
 import structural_patterns.proxy.some_cool_media_library.ThirdPartyYouTubeLib;
+import structural_patterns.proxy.some_cool_media_library.ThirdPartyYouTubeLibImpl;
 import structural_patterns.proxy.some_cool_media_library.Video;
 
 import java.util.HashMap;
@@ -10,8 +11,8 @@ public class YouTubeCacheProxy implements ThirdPartyYouTubeLib {
     private HashMap<String, Video> cachePopular = new HashMap<>();
     private HashMap<String, Video> cacheAll = new HashMap<>();
 
-    public YouTubeCacheProxy(ThirdPartyYouTubeLib youtubeService) {
-        this.youtubeService = youtubeService;
+    public YouTubeCacheProxy() {
+        this.youtubeService = new ThirdPartyYouTubeLibImpl();
     }
 
     @Override
