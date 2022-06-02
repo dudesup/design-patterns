@@ -1,5 +1,8 @@
 package structural_patterns.proxy.some_cool_media_library;
 
+import lombok.Getter;
+
+@Getter
 public class Video {
     String id;
     String title;
