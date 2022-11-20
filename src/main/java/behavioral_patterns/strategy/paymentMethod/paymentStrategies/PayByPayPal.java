@@ -1,4 +1,4 @@
 package behavioral_patterns.strategy.paymentMethod.paymentStrategies;
 
-public class PayByPayPal {
+public class PayByPayPal implements IPayStrategy {
 }
