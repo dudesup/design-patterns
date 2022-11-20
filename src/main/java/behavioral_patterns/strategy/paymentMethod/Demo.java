@@ -26,7 +26,7 @@ public class Demo {
 
     public static void main(String[] args) throws IOException {
         while (!order.isClosed()) {
-            BigDecimal cost = BigDecimal.ZERO;
+            BigDecimal cost;
             String contributeChoice;
             do {
                 System.out.println("Please, select a product: " + "\n" +
@@ -37,8 +37,8 @@ public class Demo {
                 int choice = Integer.parseInt(reader.readLine());
                 cost = priceOnProduct.get(choice);
                 System.out.println("Count: ");
-                int count = Integer.parseInt(reader.readLine());
-                order.setTotalCost(cost * count);
+                BigDecimal count = new BigDecimal(reader.readLine());
+                order.setTotalCost(cost.multiply(count));
                 System.out.println("Do you want to continue selecting products? Y/N: ");
                 contributeChoice = reader.readLine();
             } while (contributeChoice.equalsIgnoreCase("Y"));
