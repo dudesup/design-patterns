@@ -2,6 +2,8 @@ package creational_patterns.builder;
 
 import creational_patterns.builder.cars.CarType;
 import creational_patterns.builder.cars.Manual;
+import creational_patterns.builder.components.Engine;
+import creational_patterns.builder.components.GPSNavigator;
 
 public class CarManualBuilder implements Builder {
     private CarType type;

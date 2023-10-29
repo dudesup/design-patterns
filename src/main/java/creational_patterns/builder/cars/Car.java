@@ -1,5 +1,8 @@
 package creational_patterns.builder.cars;
 
+import creational_patterns.builder.components.Engine;
+import creational_patterns.builder.components.GPSNavigator;
+
 public class Car {
     private final CarType carType;
     private final int seats;
