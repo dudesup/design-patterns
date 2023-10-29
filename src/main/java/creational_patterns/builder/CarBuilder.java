@@ -5,6 +5,7 @@ import creational_patterns.builder.cars.CarType;
 import creational_patterns.builder.components.Engine;
 import creational_patterns.builder.components.GPSNavigator;
 import creational_patterns.builder.components.Transmission;
+import creational_patterns.builder.components.TripComputer;
 
 public class CarBuilder implements Builder {
     private CarType type;

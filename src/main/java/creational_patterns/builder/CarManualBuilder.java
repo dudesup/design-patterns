@@ -5,6 +5,7 @@ import creational_patterns.builder.cars.Manual;
 import creational_patterns.builder.components.Engine;
 import creational_patterns.builder.components.GPSNavigator;
 import creational_patterns.builder.components.Transmission;
+import creational_patterns.builder.components.TripComputer;
 
 public class CarManualBuilder implements Builder {
     private CarType type;
@@ -45,6 +46,6 @@ public class CarManualBuilder implements Builder {
     }
 
     public Manual getResult() {
-        return new Manual(type, seats, engine, transmission, transmission, gpsNavigator);
+        return new Manual(type, seats, engine, transmission, tripComputer, gpsNavigator);
     }
 }

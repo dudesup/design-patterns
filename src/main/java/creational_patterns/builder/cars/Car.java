@@ -3,6 +3,7 @@ package creational_patterns.builder.cars;
 import creational_patterns.builder.components.Engine;
 import creational_patterns.builder.components.GPSNavigator;
 import creational_patterns.builder.components.Transmission;
+import creational_patterns.builder.components.TripComputer;
 
 public class Car {
     private final CarType carType;
