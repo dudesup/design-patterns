@@ -3,6 +3,7 @@ package creational_patterns.builder;
 import creational_patterns.builder.cars.CarType;
 import creational_patterns.builder.components.Engine;
 import creational_patterns.builder.components.GPSNavigator;
+import creational_patterns.builder.components.Transmission;
 
 public interface Builder {
     void setCarType(CarType type);
