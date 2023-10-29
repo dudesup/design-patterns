@@ -1,7 +1,7 @@
 package creational_patterns.builder;
 
-public class Builder {
-    void setCarType(CarType carType);
+public interface Builder {
+    void setCarType(CarType type);
 
     void setSeats(int seats);
 
