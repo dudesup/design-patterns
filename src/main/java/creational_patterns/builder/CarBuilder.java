@@ -1,5 +1,8 @@
 package creational_patterns.builder;
 
+import creational_patterns.builder.cars.Car;
+import creational_patterns.builder.cars.CarType;
+
 public class CarBuilder implements Builder {
     private CarType type;
     private int seats;

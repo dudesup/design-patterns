@@ -1,5 +1,7 @@
 package creational_patterns.builder;
 
+import creational_patterns.builder.cars.CarType;
+
 public interface Builder {
     void setCarType(CarType type);
 
