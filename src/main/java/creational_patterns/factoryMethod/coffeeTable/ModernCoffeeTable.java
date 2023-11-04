@@ -14,4 +14,9 @@ public class ModernCoffeeTable implements CoffeeTable {
     public Color color() {
         return Color.BROWN;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Created modern coffee table");
+    }
 }

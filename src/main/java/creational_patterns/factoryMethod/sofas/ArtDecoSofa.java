@@ -14,4 +14,9 @@ public class ArtDecoSofa implements Sofa {
     public Color color() {
         return Color.GREEN;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Created artdeco sofa");
+    }
 }

@@ -14,4 +14,9 @@ public class VintageChair implements Chair {
     public Color color() {
         return Color.GOLD;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Created vintage chair");
+    }
 }

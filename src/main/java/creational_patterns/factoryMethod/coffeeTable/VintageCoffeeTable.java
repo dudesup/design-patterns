@@ -14,4 +14,9 @@ public class VintageCoffeeTable implements CoffeeTable {
     public Color color() {
         return Color.GOLD;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Created vintage coffee table");
+    }
 }

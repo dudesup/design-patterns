@@ -14,4 +14,9 @@ public class ModernSofa implements Sofa {
     public Color color() {
         return Color.RED;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Created modern coffee table");
+    }
 }

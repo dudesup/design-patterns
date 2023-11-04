@@ -14,4 +14,9 @@ public class ArtDecoCoffeeTable implements CoffeeTable {
     public Color color() {
         return Color.RED;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Created artdeco coffee table");
+    }
 }

@@ -6,4 +6,5 @@ public interface Chair {
     int legsAmount();
 
     Color color();
+    void print();
 }

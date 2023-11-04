@@ -14,4 +14,9 @@ public class ModernChair implements Chair {
     public Color color() {
         return Color.RED;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Created modern chair");
+    }
 }
