@@ -1,10 +1,7 @@
 package structural_patterns.decorator;
 
-import lombok.extern.slf4j.Slf4j;
-
 import java.util.logging.Logger;
 
-@Slf4j
 public class Demo {
     public static void main(String[] args) {
         Logger LOGGER = Logger.getLogger(Demo.class.getName());
