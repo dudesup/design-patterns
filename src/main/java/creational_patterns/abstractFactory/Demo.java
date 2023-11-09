@@ -1,9 +1,9 @@
-package creational_patterns.factoryMethod;
+package creational_patterns.abstractFactory;
 
-import creational_patterns.factoryMethod.factories.ArtDecoFactory;
-import creational_patterns.factoryMethod.factories.FurnitureFactory;
-import creational_patterns.factoryMethod.factories.ModernFactory;
-import creational_patterns.factoryMethod.factories.VintageFactory;
+import creational_patterns.abstractFactory.factories.ArtDecoFactory;
+import creational_patterns.abstractFactory.factories.FurnitureFactory;
+import creational_patterns.abstractFactory.factories.ModernFactory;
+import creational_patterns.abstractFactory.factories.VintageFactory;
 
 import java.util.Scanner;
 

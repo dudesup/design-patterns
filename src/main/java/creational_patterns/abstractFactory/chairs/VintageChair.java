@@ -1,6 +1,6 @@
-package creational_patterns.factoryMethod.chairs;
+package creational_patterns.abstractFactory.chairs;
 
-import creational_patterns.factoryMethod.Color;
+import creational_patterns.abstractFactory.Color;
 
 public class VintageChair implements Chair {
     private final int legsAmount = 4;
