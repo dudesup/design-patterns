@@ -1,6 +1,6 @@
-package creational_patterns.factoryMethod.sofas;
+package creational_patterns.abstractFactory.sofas;
 
-import creational_patterns.factoryMethod.Color;
+import creational_patterns.abstractFactory.Color;
 
 public class ArtDecoSofa implements Sofa {
     private final int pillowsAmount = 4;

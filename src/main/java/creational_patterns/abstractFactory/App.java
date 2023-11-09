@@ -1,9 +1,9 @@
-package creational_patterns.factoryMethod;
+package creational_patterns.abstractFactory;
 
-import creational_patterns.factoryMethod.chairs.Chair;
-import creational_patterns.factoryMethod.coffeeTable.CoffeeTable;
-import creational_patterns.factoryMethod.factories.FurnitureFactory;
-import creational_patterns.factoryMethod.sofas.Sofa;
+import creational_patterns.abstractFactory.chairs.Chair;
+import creational_patterns.abstractFactory.coffeeTable.CoffeeTable;
+import creational_patterns.abstractFactory.factories.FurnitureFactory;
+import creational_patterns.abstractFactory.sofas.Sofa;
 
 public class App {
     private Chair chair;

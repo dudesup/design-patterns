@@ -1,6 +1,6 @@
-package creational_patterns.factoryMethod.coffeeTable;
+package creational_patterns.abstractFactory.coffeeTable;
 
-import creational_patterns.factoryMethod.Color;
+import creational_patterns.abstractFactory.Color;
 
 public class ArtDecoCoffeeTable implements CoffeeTable {
     private final int legsNumber = 4;
